@@ -36,8 +36,8 @@ const NavBar = () => {
 
         <div className="hidden text-white font-[JosefinSans] 1xl:flex text-[18px] items-center ">
           <div className="flex mr-4 space-x-8">
-            {catego.map((category) => {
-              return <p className="hover">{category}</p>;
+            {catego.map((category, index) => {
+              return <p key={index} className="hover">{category}</p>;
             })}
           </div>
           <div className="flex ml-5 xl:space-x-7 1xl:space-x-5">
