@@ -71,7 +71,7 @@ const pod = [
 
 const Podcast = () => {
   return (
-    <div className="bg-[rgb(14,5,58)] grid items-center justify-center  sm:pt-0 0xl:-mt-24 pb-8 0xl:pb-36">
+    <div className="bg-[rgb(14,5,58)] grid items-center justify-center pt-8 sm:pt-0 0xl:-mt-24 pb-8 0xl:pb-36">
       <div className="grid w-full sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 0xl:grid-cols-4">
         {pod.map((pod,index) => {
           return (
