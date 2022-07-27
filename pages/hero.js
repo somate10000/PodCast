@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="  w-full sm:w-[500px] md:px-0 sm:mx-auto  md:w-[650px] xl:w-[570px] xl:ml-16   font-[JosefinSans]">
         <div className="mb-14 md:-mt-8 xl:mb-8 ">
           <div className="mb-[70px] md:pr-12  md:-mt-8 xl:mt-4 flex xl:mb-[82px] xl:pr-6 md:mb-[75px]">
-            <Image src={hero_title} className="z-10" />
+            <Image src={hero_title} className="z-10" alt="" />
           </div>
           <div>
             <p className="text-[15px] sm:text-base text-white xl:text-lg  -mt-14  md:text-lg md:mb-3 xl:mb-2">
@@ -47,7 +47,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="w-[0px] h-[0px] rounded-[100px] 1xl:ml-3 xl:mr-20 -mt-12 1xl:h-[590px]   0xl:w-[570px]">
-        <Image src={hero_img} className="rounded-[110px]" />
+        <Image src={hero_img} className="rounded-[110px]" alt=""/>
       </div>
     </div>
   );
