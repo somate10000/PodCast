@@ -6,7 +6,7 @@ const SignUp = () => {
   return (
     <div className="bg-[#0e053a]">
       <div className="flex mx-[7%] lg:px-[3%] xl:px-0 lg:mx-[3%] xl:mx-[6%] h-[400px] sm:h-[295px] justify-center  lg:h-[250px] ">
-        <Image src={newsletter} className="object-cover h-full rounded-2xl" />
+        <Image alt="" src={newsletter} className="object-cover h-full rounded-2xl" />
         <div className="flex flex-col lg:flex-row items-center md:justify-center  md:h-[300px]  mx-[10%]   absolute  text-white">
           <div className="mx-3 mt-14 md:-mt-5 sm:mt-10  lg:w-[450px] xl:w-[510px]">
             <h3 className="text-[25px] md:text-[32px] font-[JosefinSanss]">
