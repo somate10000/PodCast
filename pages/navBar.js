@@ -25,7 +25,7 @@ const NavBar = () => {
     <div className="mx-auto">
       <div className="h-20 px-2 sm:px-[10%] xl:h-24 w-full bg-[#150849] shadow-[0_32px_64px_rgba(0,0,0,1)] flex items-center justify-between lg:px-[44px] py-[28px] ">
         <div className="mt-3">
-          <Image src={logo} />
+          <Image src={logo} alt="" />
         </div>
         <div
           className="flex text-white text-[40px] cursor-pointer 1xl:hidden"
