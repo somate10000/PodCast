@@ -73,12 +73,13 @@ const Podcast = () => {
   return (
     <div className="bg-[rgb(14,5,58)] grid items-center justify-center  sm:pt-0 0xl:-mt-24 pb-8 0xl:pb-36">
       <div className="grid w-full sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 0xl:grid-cols-4">
-        {pod.map((pod) => {
+        {pod.map((pod,index) => {
           return (
             //w-[370px]
-            <div className="  sm:w-[290px] mb-10 sm:h-[380px] md:w-[310px] 0xl:w-[270px] 0xl:h-[270px] 0xl:mt-24 group cursor-pointer sm:mx-4 mx-[10%] sm:px-0">
+            <div key={index} className="  sm:w-[290px] mb-10 sm:h-[380px] md:w-[310px] 0xl:w-[270px] 0xl:h-[270px] 0xl:mt-24 group cursor-pointer sm:mx-4 mx-[10%] sm:px-0">
               <Image
                 src={pod.img}
+                alt=""
                 className="object-contain rounded-xl group-hover:opacity-70" //270px
               />
               <div className=" w-[270px] h-[270px] hover:bg-white/5 group-hover:delay-100 rounded-xl -mt-[275px]" />
