@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 html,
 body {
   padding: 0;
@@ -13,4 +18,37 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url(../components/fonts/JosefinSans-Regular.ttf);
+}
+@font-face {
+  font-family: "JosefinSansS";
+  src: url(../components/fonts/JosefinSans-Bold.ttf);
+}
+
+.linear {
+  background:  linear-gradient(to right, hsl(178, 100%, 49%), hsl(221, 100%, 50%));
+  background-clip: text;
+  color: transparent;
+  font-size: 20px;
+  font-weight: 700;
+  
+  font-family: "JosefinSans";
+}
+
+{/*margin-left: 144px; */}
+.hover:hover {
+  background:  linear-gradient(to right, hsl(178, 100%, 49%), hsl(221, 100%, 50%));
+  background-clip: text;
+  color: transparent;
+ text-decoration-line: underline;
+  text-underline-offset: 4px;
+  transition-timing-function: linear infinite;
+  
+  text-decoration-color: linear-gradient(to right, hsl(178, 100%, 49%), hsl(221, 100%, 50%));
+ transition: 0.5s ease-in-out infinite;
+ cursor: pointer;
 }
