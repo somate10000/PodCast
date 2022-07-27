@@ -13,7 +13,7 @@ const Base = () => {
   return (
     <div className="grid md:grid-cols-2 md:pl-14 lg:grid-cols-3  pl-4  md:justify-around bg-[#0e053a] pt-10 pb-5 lg:pt-20 lg:pb-20">
       <div className="font-[JosefinSans] mx-[4%] lg:mx-[6%] ">
-        <Image src={logo} />
+        <Image src={logo} alt=""/>
         <p className="text-[15px] md:text-lg text-[#ACA7BE] mt-1">
           Lorem ipsum dolor sit amet consectetur adipiscing elit tincidunt in
           felis malesuada mollis purus id sit in aliquet lectus eget morbi dui
